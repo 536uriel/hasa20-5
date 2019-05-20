@@ -1,0 +1,15 @@
+<div class="pageContainer">
+
+<div class="item1">
+<app-inputs-num-for-img (outStudents)="setStudentsArrey($event)" (outTeachers)="setTechersArrey($event)"></app-inputs-num-for-img>
+</div>
+
+<div class="item2">
+<app-display-students [arrStudents]="studentsArr" [imageSrc]="imgS" [RHW]="range" [RGS]="range2" [RR]="range3" [name]="stuName"></app-display-students>
+</div>
+
+<div class="item3">
+<app-display-teachers [arrTeachers]="teachersArr"></app-display-teachers>
+</div>
+</div>
+
